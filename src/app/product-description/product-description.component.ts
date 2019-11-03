@@ -1,4 +1,4 @@
-import { Component, OnInit, Injectable } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {ProductService} from '../product.service'
 import { Album } from 'app/album';
 
@@ -8,7 +8,6 @@ import { Album } from 'app/album';
   styleUrls: ['./product-description.component.css']
 })
 
-@Injectable()
 export class ProductDescriptionComponent implements OnInit {
   albumInfo: Album;
 
