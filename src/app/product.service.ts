@@ -12,6 +12,6 @@ private _albumUrl = "../assets/album.json"
 
   getAlbum (id: number): Observable<Album>{
     return this._http.get(this._albumUrl)
-    .map(response => <Album> response.json())
+    .map(response => <Album>response.json())
   }
 }
